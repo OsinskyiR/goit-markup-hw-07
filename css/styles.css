@@ -407,6 +407,8 @@ button {
 }
 .abaut-item {
   width: 100%;
+  
+  
 
 }
 
@@ -1048,21 +1050,20 @@ letter-spacing: 0.04em;
 
   .about-list { 
      
-    column-gap: 
+    column-gap: 24px;
    
   }        
+
   .abaut-item {
- 
-    max-width: calc((100%-24px) / 2);
+    max-width: 356px;
+   
     
   }
   
   .about-title-small {
     text-align: left;
   }
-  .about-subtitle{
-  
-  }
+
   .employees-list {
     width: 100%;
     column-gap: 24px;
